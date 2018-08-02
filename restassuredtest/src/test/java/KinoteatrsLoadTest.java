@@ -1,3 +1,4 @@
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ import static org.hamcrest.Matchers.hasItem;
  */
 public class KinoteatrsLoadTest extends BaseTest {
 
-    private static final String CINEMAS_PATH = "ajax/kinoteatrs_load";
+    private static final String CINEMAS_PATH = RestAssured.baseURI+"ajax/kinoteatrs_load";
 
     @Test
     public void checkResponseIsOk() {
@@ -25,6 +26,13 @@ public class KinoteatrsLoadTest extends BaseTest {
 
     @Test
     public void checkMultiplexLavinaMallInTheList() {
+        RestAssured.given()
+                .contentType(ContentType.JSON)
+                .when()
+                .get(CINEMAS_PATH)
+                .then().statusCode(200)
+                .and().assertThat().body("result.unmain.name", hasItem("Multiplex Lavina Mall"));
         //check that json from CINEMAS_PATH has cinema with name "Multiplex Lavina Mall"
     }
 }
+
