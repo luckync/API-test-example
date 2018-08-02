@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ef37647-07f5-440a-a521-e0bac4c9f883" name="Default Changelist" comment="">
+    <list default="true" id="0ef37647-07f5-440a-a521-e0bac4c9f883" name="Default Changelist" comment="Test created">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Kinoteatr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-assured-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-assured-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/KinoteatrSessionsLoadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KinoteatrSessionsLoadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KinoteatrSessionsLoadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KinoteatrSessionsLoadTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,27 +33,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1106" />
+          <entry key="java" value="1617" />
           <entry key="txt" value="12" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1106" />
+          <entry key="JAVA" value="1617" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="2" />
         </counts>
@@ -69,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/KinoteatrsLoadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="561">
+              <caret line="33" column="61" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +89,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/KinoteatrSessionsLoadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="595">
+              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#596#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Kinoteatr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#799#815#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +133,15 @@
         <option value="$PROJECT_DIR$/src/test/java/KinoteatrsLoadTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/KinoteatrSessionsLoadTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Kinoteatr.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -184,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533230618290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533239211418" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -203,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest">
+  <component name="RunManager" selected="JUnit.KinoteatrSessionsLoadTest.checkAllKinoteatrsSessionsTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="MAIN_CLASS_NAME" value="BaseTest" />
       <method v="2">
@@ -230,6 +259,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KinoteatrSessionsLoadTest.checkAllKinoteatrsSessionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KinoteatrSessionsLoadTest" />
+      <option name="METHOD_NAME" value="checkAllKinoteatrsSessionsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -242,11 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KinoteatrsLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Kinoteatr.KinoteatrsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KinoteatrsLoadTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Kinoteatr" />
+      <option name="METHOD_NAME" value="KinoteatrsList" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <dir value="$PROJECT_DIR$" />
       <method v="2">
@@ -353,16 +395,18 @@
       <item itemvalue="Maven.test4" />
       <item itemvalue="Maven.rest-assured-test [install:install]" />
       <item itemvalue="JUnit.KinoteatrsLoadTest.checkMultiplexLavinaMallInTheList" />
-      <item itemvalue="JUnit.KinoteatrsLoadTest" />
       <item itemvalue="JUnit.KinoteatrsLoadTest.checkResponseIsOk" />
       <item itemvalue="JUnit.KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" />
+      <item itemvalue="JUnit.KinoteatrSessionsLoadTest.checkAllKinoteatrsSessionsTest" />
+      <item itemvalue="JUnit.Kinoteatr.KinoteatrsList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KinoteatrSessionsLoadTest.checkAllKinoteatrsSessionsTest" />
+        <item itemvalue="JUnit.Kinoteatr.KinoteatrsList" />
         <item itemvalue="JUnit.KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" />
         <item itemvalue="JUnit.KinoteatrsLoadTest.checkMultiplexLavinaMallInTheList" />
         <item itemvalue="JUnit.KinoteatrsLoadTest.checkResponseIsOk" />
-        <item itemvalue="JUnit.KinoteatrsLoadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -388,39 +432,53 @@
       <option name="project" value="LOCAL" />
       <updated>1533209050750</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test created">
+      <created>1533230591482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533230591482</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test created">
+      <created>1533230598794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533230598794</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 14h 32m 32s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 14h 34m 10s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 14h 34m 24s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 19h 28m 05s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 19h 45m 54s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 20h 05m 29s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 20h 06m 25s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 20h 08m 02s.xml">
-      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 20h 18m 43s.xml">
       <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 20h 19m 11s.xml">
       <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 21h 21m 56s.xml">
+      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 21h 24m 06s.xml">
+      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 21h 29m 23s.xml">
+      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 22h 03m 38s.xml">
+      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KinoteatrSessionsLoadTest_checkKinoteatrSessionsTest - 2018.08.02 at 22h 05m 23s.xml">
+      <configuration name="KinoteatrSessionsLoadTest.checkKinoteatrSessionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kinoteatr_KinoteatrsList - 2018.08.02 at 22h 15m 30s.xml">
+      <configuration name="Kinoteatr.KinoteatrsList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kinoteatr_KinoteatrsList - 2018.08.02 at 22h 17m 13s.xml">
+      <configuration name="Kinoteatr.KinoteatrsList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KinoteatrSessionsLoadTest_checkAllKinoteatrsSessionsTest - 2018.08.02 at 22h 24m 19s.xml">
+      <configuration name="KinoteatrSessionsLoadTest.checkAllKinoteatrsSessionsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -434,9 +492,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1802" height="1216" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1946039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1946039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +502,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988519" visible="true" weight="0.32994455" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988519" visible="true" weight="0.32994455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39926064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,6 +543,13 @@
     <entry file="file://$PROJECT_DIR$/rest-assured-test.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -498,25 +562,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KinoteatrsLoadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="561">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Kinoteatr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        <state relative-caret-position="337">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#815#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KinoteatrSessionsLoadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="595">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#596#612#0" expanded="true" />
