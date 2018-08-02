@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.both;
+import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItem;
 
 public class KinoteatrSessionsLoadTest extends BaseTest {
@@ -22,6 +24,7 @@ public class KinoteatrSessionsLoadTest extends BaseTest {
                // .queryParam("date", "1533168000")
                 //.queryParam("kinoteatr", "256")
                 .contentType(ContentType.JSON)
+                //.cookies(parameters)
                 .body(parameters)
                 .when()
                 //.post(CINEMAS_PATH+"?date=1533168000&kinoteatr=256")
