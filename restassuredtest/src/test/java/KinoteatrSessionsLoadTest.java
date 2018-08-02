@@ -21,20 +21,38 @@ public class KinoteatrSessionsLoadTest extends BaseTest {
        parameters.put("date", 1533168000);
        parameters.put("kinoteatr", 256);
         RestAssured.given()//.params(parameters)
-               // .queryParam("date", "1533168000")
-                //.queryParam("kinoteatr", "256")
+                .queryParam("date", "1533168000")
+                .queryParam("kinoteatr", "256")
+                //.formParam("date", "1533168000")
+                //.formParam("kinoteatr", "256")
                 .contentType(ContentType.JSON)
-                //.cookies(parameters)
-                .body(parameters)
+                //.contentType(ContentType.ANY)
+                //.cookies("city_id", 1)
+                //.body(parameters)
                 .when()
                 //.post(CINEMAS_PATH+"?date=1533168000&kinoteatr=256")
+                //.get(CINEMAS_PATH)
                 .post(CINEMAS_PATH)
+                //.put(CINEMAS_PATH)
                 .then().statusCode(200)
                 .and().extract().response().print();
     }
 }
 
-  /*  function load_sessions(date, kinoteatr) {
+  /*
+
+var	cur_kinoteatr = 256;
+var	cur_date = 1533168000;
+
+var cur_limit = 2;
+var cur_offset = cur_limit;
+var cur_loaded = cur_limit;
+
+
+    clear_sessions();
+	load_sessions(cur_date, cur_kinoteatr);
+
+   function load_sessions(date, kinoteatr) {
         $.ajax({
                 type: "POST",
                 url: '/ajax/kinoteatr_sessions_load',
